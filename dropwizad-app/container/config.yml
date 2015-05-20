@@ -1,0 +1,7 @@
+database:
+  driverClass: com.mysql.jdbc.Driver
+  user: phonebookuser
+  password: phonebookpassword
+  url: jdbc:mysql://mysql.local/phonebook?user=phonebookuser&password=phonebookpassword
+host: microservicerocks-env.elasticbeanstalk.com
+port: 80

@@ -1,0 +1,7 @@
+database:
+  driverClass: com.mysql.jdbc.Driver
+  user: phonebookuser3
+  password: phonebookpassword
+  url: jdbc:mysql://localhost/phonebook
+host: localhost
+port: 8080
