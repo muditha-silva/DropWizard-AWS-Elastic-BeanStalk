@@ -71,6 +71,11 @@ Click `List Operations` using the swagger UI test the API operations
 
 Step by step AWS environment configuration and Elastic BeanStalk deployment explains in the [Wiki](https://github.com/muditha-silva/DropWizard-AWS-Elastic-BeanStalk/wiki)
 
+###Steps to follow###
+ 1. Configure the AWS deployment environment
+ 2. Create a zip file to deploy 
+ 3. Deploy the zip file in Elastic BeanStalk as a docker image
+
 ###Create a zip file to Deploy in Elastic BeanStalk###
 
 In the `dropwizad-app/container` following fils exists `config.yml`,`Dockerfile`,`dropwizad-app-1.0-SNAPSHOT.jar` 
@@ -97,8 +102,7 @@ host: microservicerocks-env.elasticbeanstalk.com
 port: 80
   ```
   
-2.  **Docker file**
-
+2. **Docker file**  
 ```
 FROM dgageot/java8
 
@@ -109,7 +113,10 @@ ADD config.yml config.yml
 CMD java -jar dwbook-phonebook-1.0-SNAPSHOT.jar server config.yml
 
 EXPOSE 8080
-```
+```  
+3. **dropwizad-app-1.0-SNAPSHOT.jar**   
+This DropWizard jar file is generated once you run the `mvn package` command.  
+By default this file will be located at `dropwizad-app/target`
 
 ## Credits
 
