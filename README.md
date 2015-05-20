@@ -68,9 +68,9 @@ Click `List Operations` using the swagger UI test the API operations
 
 ![](https://github.com/muditha-silva/DropWizard-AWS-Elastic-BeanStalk/blob/master/images/swagger2.jpg)
 
-## Deploying the application in the Elastic BeanStalk as a docker image 
+## Deploying the application in the Elastic BeanStalk as a Docker image 
 
-Step by step AWS environmment configuration and Elastic BeanStalk deployment explains in the [Wiki](https://github.com/muditha-silva/DropWizard-AWS-Elastic-BeanStalk/wiki)
+Step by step AWS environment configuration and Elastic BeanStalk deployment explains in the [Wiki](https://github.com/muditha-silva/DropWizard-AWS-Elastic-BeanStalk/wiki)
 
 ###Create a zip file to Deploy in Elastic BeanStalk###
 
