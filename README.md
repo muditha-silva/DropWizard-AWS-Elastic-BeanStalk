@@ -81,7 +81,8 @@ Step by step AWS environment configuration and Elastic BeanStalk deployment expl
 In the `dropwizad-app/container` following fils exists `config.yml`,`Dockerfile`,`dropwizad-app-1.0-SNAPSHOT.jar` 
 
 Create a zip file `dropwizad-app-1.1.zip` by composing `config.yml`+`Dockerfile`+`dropwizad-app-1.0-SNAPSHOT.jar`  
-This zip file is used for the Elastic BeanStalk deployment.
+This zip file is used for the Elastic BeanStalk deployment.  
+(This file `dropwizad-app-1.1.zip` is already exists in the `dropwizad-app/container`.)
 
 1. **config.yml** This configuration file mainly consists of MySql DB configuration properties `user`,`password`,`url`,`host`
 and swagger configuration properties `host` and `port`  
