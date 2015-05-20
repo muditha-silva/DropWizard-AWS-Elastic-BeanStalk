@@ -8,7 +8,7 @@ The purpose of this project is to deploy a DropWizad application using AWS Elast
 ## Overview
 
 A simple Dropwizard application "dropwizad-app" was developed. This application is integrated with swagger.  
-Step by Step AWS environemt configurations and Elastic BeanStalk deployment has been explained in the [Wiki](https://github.com/muditha-silva/DropWizard-AWS-Elastic-BeanStalk/wiki)
+Step by Step AWS environment configurations and Elastic BeanStalk deployment has been explained in the [Wiki](https://github.com/muditha-silva/DropWizard-AWS-Elastic-BeanStalk/wiki)
 
 ## Running The Application locally
 
