@@ -58,7 +58,7 @@ Run following commands from the project root folder `dropwizad-app`
 
 To package the application `mvn package`
 
-To Run the application `java -jar target/dropwizad-app-1.0-SNAPSHOT.jar server config.yml`
+To run the application `java -jar target/dropwizad-app-1.0-SNAPSHOT.jar server config.yml`
 
 To test the application `http://localhost:8080/swagger` this will expose the Swagger UI 
 
