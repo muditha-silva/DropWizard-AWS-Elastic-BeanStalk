@@ -72,9 +72,9 @@ Click `List Operations` using the swagger UI test the API operations
 Step by step AWS environment configuration and Elastic BeanStalk deployment explains in the [Wiki](https://github.com/muditha-silva/DropWizard-AWS-Elastic-BeanStalk/wiki)
 
 ###Steps to follow###
- 1. Configure the AWS deployment environment (Follow the instructions in the [Wiki](https://github.com/muditha-silva/DropWizard-AWS-Elastic-BeanStalk/wiki))
+ 1. Configure the AWS deployment environment (Follow the instructions in the [Wiki](https://github.com/muditha-silva/DropWizard-AWS-Elastic-BeanStalk/wiki/AWS-Environment-configuration-steps))
  2. Create a zip file to Deploy in Elastic BeanStalk (This explains in the following section)
- 3. Deploy the zip file in Elastic BeanStalk as a docker image (Follow the instructions in the [Wiki](https://github.com/muditha-silva/DropWizard-AWS-Elastic-BeanStalk/wiki))
+ 3. Deploy the zip file in Elastic BeanStalk as a docker image (Follow the instructions in the [Wiki](https://github.com/muditha-silva/DropWizard-AWS-Elastic-BeanStalk/wiki/Deploy-the-Docker-image-using-AWS-Elastic-BeanStalk.))
 
 ###Create a zip file to Deploy in Elastic BeanStalk###
 
