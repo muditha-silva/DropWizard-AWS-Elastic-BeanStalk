@@ -2,13 +2,12 @@
   <content>
 ## Introduction
 
-The purpose of this project is to deploy a DropWizad application using AWS Elastic BeanStalk as a Docker image. 
-
+The purpose of this project is to deploy a DropWizad application using AWS Elastic BeanStalk as a Docker image.
 
 ## Overview
 
-A simple Dropwizard application "dropwizad-app" was developed. This application is integrated with swagger.  
-Step by Step AWS environment configurations and Elastic BeanStalk deployment has been explained in the [Wiki](https://github.com/muditha-silva/DropWizard-AWS-Elastic-BeanStalk/wiki)
+A simple Dropwizard application `dropwizad-app` integrated with swagger has been used for the deployment.    
+Step by Step AWS environment configurations and Elastic BeanStalk deployment steps have been explained in the [Wiki](https://github.com/muditha-silva/DropWizard-AWS-Elastic-BeanStalk/wiki)
 
 ## Running The Application locally
 
