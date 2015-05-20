@@ -118,5 +118,5 @@ The sample code was taken and modified from the Book `RESTful Web Services with 
 `Swagger` [federecio/dropwizard-swagger](https://github.com/federecio/dropwizard-swagger)  
 
 </content>
-  <tabTrigger>readme</tabTrigger>
+  <tabTrigger></tabTrigger>
 </snippet>
