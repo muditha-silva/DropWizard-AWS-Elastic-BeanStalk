@@ -127,7 +127,7 @@ This file also avilable in `dropwizad-app/container`
 ## Credits
 
 The sample code was taken and modified from the Book `RESTful Web Services with Dropwizard Alexandros Dallas`.  
-`Swagger` [federecio/dropwizard-swagger](https://github.com/federecio/dropwizard-swagger)  
+`DropWizard Swagger integration` [federecio/dropwizard-swagger](https://github.com/federecio/dropwizard-swagger)  
 
 </content>
   <tabTrigger></tabTrigger>
