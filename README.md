@@ -124,6 +124,8 @@ This DropWizard jar file generates once you run the `mvn package` command.
 By default this file will be located at `dropwizad-app/target`  
 This file also avilable in `dropwizad-app/container`
 
+[Deploy the docker image using AWS Elastic BeanStalk](https://github.com/muditha-silva/DropWizard-AWS-Elastic-BeanStalk/wiki/Deploy-the-Docker-image-using-AWS-Elastic-BeanStalk.)
+
 ## Credits
 
 The sample code was taken and modified from the Book `RESTful Web Services with Dropwizard Alexandros Dallas`.  
