@@ -3,5 +3,5 @@ database:
   user: phonebookuser
   password: phonebookpassword
   url: jdbc:mysql://mysql.local/phonebook?user=phonebookuser&password=phonebookpassword
-host: microservicerocks-env.elasticbeanstalk.com
+host: dropwizadapp-env.elasticbeanstalk.com
 port: 80
