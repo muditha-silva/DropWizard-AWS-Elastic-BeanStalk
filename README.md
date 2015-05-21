@@ -2,12 +2,15 @@
   <content>
 ## Introduction
 
-The purpose of this project is to deploy a DropWizad application using AWS Elastic BeanStalk as a Docker image.
+The purpose of this project is to deploy a DropWizad application using AWS Elastic BeanStalk as a Docker image.  
+Please follow the [Wiki](https://github.com/muditha-silva/DropWizard-AWS-Elastic-BeanStalk/wiki) which gives an overall deployment architecture and step by step configuration steps needed.  
 
 ## Overview
 
-A simple Dropwizard application `dropwizad-app` integrated with swagger has been used for the deployment.    
-Step by Step AWS environment configurations and Elastic BeanStalk deployment steps have been explained in the [Wiki](https://github.com/muditha-silva/DropWizard-AWS-Elastic-BeanStalk/wiki)
+A simple Dropwizard application `dropwizad-app` integrated with swagger is intendent to deployed in AWS Elastic BeanStalk as a docker image.  
+This application is going to deploy in a public subnet reside in a private VPC, this utilize a MySql RDS instance deployed in a private subnet reside in a private VPC.  
+Step by Step AWS environment configurations (VPC, Subnet, Internet Gateway, Rout Table, Security Groups ,Subnet Groups,RDS,EC2) explain in the [Wiki](https://github.com/muditha-silva/DropWizard-AWS-Elastic-BeanStalk/wiki/AWS-Environment-configuration-steps)   
+Step by step AWS Elastic beanstalk explain in the [Wiki](https://github.com/muditha-silva/DropWizard-AWS-Elastic-BeanStalk/wiki/Deploy-the-Docker-image-using-AWS-Elastic-BeanStalk.).
 
 ## Running The Application locally
 
